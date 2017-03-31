@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 180px;
   padding: 20px;
   color: white;
 }
@@ -21,4 +21,46 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.App-header .icon {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.App-header h1 {
+  margin: 10px;
+}
+
+.App-content {
+  height: calc(100% - 270px);
+}
+
+.WizardContainer {
+  padding: 20px 10px;
+}
+
+.WizardContainer .WizardNavBar .WizardNavBarItem {
+  display: inline-block;
+  border: solid 1px #0066FF;
+  margin: 0 20px;
+  padding: 20px 20px;
+  width: 150px;
+}
+
+.WizardContainer .WizardNavBar .WizardNavBarItem.active {
+  border: none;
+  background-color: #0066FF;
+}
+
+.WizardContainer .WizardContent .WizardContentSkills {
+  display: inline-block;
+}
+
+.App-footer {
+  background-color: #222222;
+  height: 90px;
+  padding: 20px;
+  color: white;
 }
